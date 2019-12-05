@@ -15,7 +15,8 @@ const Slider = props => {
     ));
 
     return (
-        <div id="main-gallery">
+        <>
+
             <div className="blur-container">
                 <div className="gallery-container">
                     <div className="title-container ">
@@ -52,7 +53,8 @@ const Slider = props => {
                     </div>
                 </div>
             </div>
-        </div>
+
+        </>
     );
 };
 
