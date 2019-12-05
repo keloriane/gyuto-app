@@ -302,7 +302,6 @@ module.exports = function (webpackEnv) {
         .filter(ext => useTypeScript || !ext.includes('ts')),
       alias: {
         "TweenMax": path.resolve('node_modules', 'gsap/src/uncompressed/TweenMax.js'),
-        "TweenMax": path.resolve('node_modules', 'gsap/src/uncompressed/TweenMax.js'),
         "TimelineLite": path.resolve('node_modules', 'gsap/src/uncompressed/TimelineLite.js'),
         "TimelineMax": path.resolve('node_modules', 'gsap/src/uncompressed/TimelineMax.js'),
         "ScrollMagic": path.resolve('node_modules', 'scrollmagic/scrollmagic/uncompressed/ScrollMagic.js'),

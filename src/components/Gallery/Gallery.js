@@ -115,6 +115,7 @@ export default function Gallery() {
                 delay: -1
             })
             // .from(imageList.children, 0.7, {
+
             //   x: "-100%",
             //   ease: Power4.easeOut
             // })
@@ -142,9 +143,9 @@ export default function Gallery() {
                 <>
 
                     <div id="gallery">
-                        <div
-                            id="main-img"
-                            style={{ backgroundImage: `url(${slide.bgImage})` }}></div>
+                        <div id="main-img" style={{ backgroundImage: `url(${slide.bgImage})` }}>
+
+                        </div>
                         <div id="main" className="monstery">
                             <Header title={slide.theme} id={slide.id} />
                             <div id="main-gallery">

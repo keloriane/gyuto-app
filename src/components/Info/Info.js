@@ -3,9 +3,6 @@ import "./info.scss"
 import logo from './../../assets/images/svg/gyuto.svg';
 import { TimelineMax, Power4 } from 'gsap';
 
-
-
-
 const sliderContent = [
     {
         id: 1,
@@ -67,14 +64,8 @@ const sliderContent = [
 
 
 
-const Info = () => {
-
-
-
+export default function Info() {
     useEffect(() => {
-
-
-        window.addEventListener('load', () => {
             const letter = document.querySelectorAll('.letter')
             const containerInfo = document.querySelector('.info-container')
             const containerImage = document.querySelector('.image-background')
@@ -91,15 +82,9 @@ const Info = () => {
                 .from(containerInfo, 0.5, { x: "-100%" })
                 .from(containerImage, 0.5, { x: "-100%", opacity: 0, delay: -0.25 })
                 .staggerFrom(textInfo, 0.5, { x: "-100%", yoyo: true, opacity: 0, delay: -0.2 }, "0.2")
-        })
-
-    }, [])
 
 
-
-
-
-
+    }, []);
     return (
         <>
             <div className="main-loader">
@@ -163,11 +148,8 @@ const Info = () => {
                         <circle cx="1172" cy="11" r="4" fill="white" />
                         <circle cx="1291" cy="30" r="4" fill="white" />
                     </svg>
-
-
                 </div>
             </div>
         </>
     )
 }
-export default Info;
