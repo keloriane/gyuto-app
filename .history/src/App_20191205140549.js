@@ -5,17 +5,15 @@ import Cursor from "./components/Cursor/Cursor"
 import Info from './components/Info/Info';
 import Loader from './components/Loader/Loader';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Mandala from './components/Mandala/Mandala';
 import Nav from "./components/Nav/Nav";
 function App() {
   return (
     <div className="App" id="App">
       <Cursor />
-      <Nav />
+      <Nav/>
       <Router>
         <Switch>
           <Route exact path="/info" component={Info} />
-          <Route exact path="/mandala" component={Mandala} />
           <Route path="/slider" component={Gallery} />
           <Route path="/loader" component={Loader} />
         </Switch>
@@ -23,4 +21,5 @@ function App() {
     </div>
   );
 }
+
 export default App;

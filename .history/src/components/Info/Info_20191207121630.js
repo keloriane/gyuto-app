@@ -65,26 +65,26 @@ const sliderContent = [
 
 
 const Info = () => {
-    // useEffect(() => {
-    //     const letter = document.querySelectorAll('.letter')
-    //     const containerInfo = document.querySelector('.info-container')
-    //     const containerImage = document.querySelector('.image-background')
-    //     const textInfo = document.querySelectorAll('.text-info-page')
-    //     const loaderAnimation = new TimelineMax();
-    //     loaderAnimation
-    //         .staggerFrom(letter, 1, { y: "100%", yoyo: true, ease: Power4.easeOut }, "0.1")
-    //         .staggerTo(letter, 0.2, { opacity: 0 }, "0.1")
-    //         .to(".main-loader", 1, { width: 0 })
+    useEffect(() => {
+        const letter = document.querySelectorAll('.letter')
+        const containerInfo = document.querySelector('.info-container')
+        const containerImage = document.querySelector('.image-background')
+        const textInfo = document.querySelectorAll('.text-info-page')
+        const loaderAnimation = new TimelineMax();
+        loaderAnimation
+            .staggerFrom(letter, 1, { y: "100%", yoyo: true, ease: Power4.easeOut }, "0.1")
+            .staggerTo(letter, 0.2, { opacity: 0 }, "0.1")
+            .to(".main-loader", 1, { width: 0 })
 
 
 
 
-    //         .from(containerInfo, 0.5, { x: "-100%" })
-    //         .from(containerImage, 0.5, { x: "-100%", opacity: 0, delay: -0.25 })
-    //         .staggerFrom(textInfo, 0.5, { x: "-100%", yoyo: true, opacity: 0, delay: -0.2 }, "0.2")
+            .from(containerInfo, 0.5, { x: "-100%" })
+            .from(containerImage, 0.5, { x: "-100%", opacity: 0, delay: -0.25 })
+            .staggerFrom(textInfo, 0.5, { x: "-100%", yoyo: true, opacity: 0, delay: -0.2 }, "0.2")
 
 
-    // }, []);
+    }, []);
     return (
         <>
             <div className="main-loader">

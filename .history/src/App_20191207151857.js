@@ -15,7 +15,6 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/info" component={Info} />
-          <Route exact path="/mandala" component={Mandala} />
           <Route path="/slider" component={Gallery} />
           <Route path="/loader" component={Loader} />
         </Switch>
@@ -23,4 +22,5 @@ function App() {
     </div>
   );
 }
+
 export default App;

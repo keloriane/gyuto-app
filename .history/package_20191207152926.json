@@ -66,8 +66,6 @@
     "webpack-manifest-plugin": "2.1.1",
     "@u-wave/react-vimeo": "^0.5.0",
     "react-flexbox-grid": "^2.1.2",
-    "react-helmet": "^5.2.0",
-    "react-i18next": "^8.4.0",
     "workbox-webpack-plugin": "4.3.1"
   },
   "scripts": {
