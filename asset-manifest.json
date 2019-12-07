@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/keloriane/gyuto-app/static/css/main.980b46a0.chunk.css",
-    "main.js": "/keloriane/gyuto-app/static/js/main.459ade12.chunk.js",
-    "main.js.map": "/keloriane/gyuto-app/static/js/main.459ade12.chunk.js.map",
-    "runtime-main.js": "/keloriane/gyuto-app/static/js/runtime-main.1e6a435f.js",
-    "runtime-main.js.map": "/keloriane/gyuto-app/static/js/runtime-main.1e6a435f.js.map",
-    "static/js/2.421bbe69.chunk.js": "/keloriane/gyuto-app/static/js/2.421bbe69.chunk.js",
-    "static/js/2.421bbe69.chunk.js.map": "/keloriane/gyuto-app/static/js/2.421bbe69.chunk.js.map",
+    "main.css": "/keloriane/gyuto-app/static/css/main.bcd1b5a5.chunk.css",
+    "main.js": "/keloriane/gyuto-app/static/js/main.24f49a16.chunk.js",
+    "main.js.map": "/keloriane/gyuto-app/static/js/main.24f49a16.chunk.js.map",
+    "runtime-main.js": "/keloriane/gyuto-app/static/js/runtime-main.55b233df.js",
+    "runtime-main.js.map": "/keloriane/gyuto-app/static/js/runtime-main.55b233df.js.map",
+    "static/js/2.254b1d93.chunk.js": "/keloriane/gyuto-app/static/js/2.254b1d93.chunk.js",
+    "static/js/2.254b1d93.chunk.js.map": "/keloriane/gyuto-app/static/js/2.254b1d93.chunk.js.map",
     "index.html": "/keloriane/gyuto-app/index.html",
-    "precache-manifest.93cb3c4944663edb26f85c6a7da3fd01.js": "/keloriane/gyuto-app/precache-manifest.93cb3c4944663edb26f85c6a7da3fd01.js",
+    "precache-manifest.fdf8bdb2aee4a9eb7df9573b2cd4d020.js": "/keloriane/gyuto-app/precache-manifest.fdf8bdb2aee4a9eb7df9573b2cd4d020.js",
     "service-worker.js": "/keloriane/gyuto-app/service-worker.js",
-    "static/css/main.980b46a0.chunk.css.map": "/keloriane/gyuto-app/static/css/main.980b46a0.chunk.css.map",
+    "static/css/main.bcd1b5a5.chunk.css.map": "/keloriane/gyuto-app/static/css/main.bcd1b5a5.chunk.css.map",
     "static/media/gyuto.svg": "/keloriane/gyuto-app/static/media/gyuto.d2f2aa2c.svg",
     "static/media/image1.jpg": "/keloriane/gyuto-app/static/media/image1.1106b46b.jpg",
     "static/media/image10.jpg": "/keloriane/gyuto-app/static/media/image10.38afd55f.jpg",
@@ -29,13 +29,14 @@
     "static/media/image33.jpg": "/keloriane/gyuto-app/static/media/image33.f2a9d46d.jpg",
     "static/media/image42.jpg": "/keloriane/gyuto-app/static/media/image42.6c9bfb72.jpg",
     "static/media/leftArrow.svg": "/keloriane/gyuto-app/static/media/leftArrow.65af1358.svg",
+    "static/media/mandala.svg": "/keloriane/gyuto-app/static/media/mandala.5efa145f.svg",
     "static/media/rightArrow.svg": "/keloriane/gyuto-app/static/media/rightArrow.fc4decb3.svg",
     "static/media/info.scss": "/keloriane/gyuto-app/static/media/tcrcbyn1.9ed617ab.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e6a435f.js",
-    "static/js/2.421bbe69.chunk.js",
-    "static/css/main.980b46a0.chunk.css",
-    "static/js/main.459ade12.chunk.js"
+    "static/js/runtime-main.55b233df.js",
+    "static/js/2.254b1d93.chunk.js",
+    "static/css/main.bcd1b5a5.chunk.css",
+    "static/js/main.24f49a16.chunk.js"
   ]
 }

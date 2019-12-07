@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/keloriane/gyuto-app/precache-manifest.93cb3c4944663edb26f85c6a7da3fd01.js"
+  "/keloriane/gyuto-app/precache-manifest.fdf8bdb2aee4a9eb7df9573b2cd4d020.js"
 );
 
 self.addEventListener('message', (event) => {
